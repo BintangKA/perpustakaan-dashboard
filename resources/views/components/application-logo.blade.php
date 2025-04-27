@@ -1,0 +1,1 @@
+<img src="{{ asset('image/logo_perpus.png') }}" alt="Logo Perpustakaan" class="w-20 h-20">
