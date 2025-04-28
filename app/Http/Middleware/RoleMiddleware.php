@@ -5,7 +5,7 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Log; // Import Log facade
+use Illuminate\Support\Facades\Log;
 
 class RoleMiddleware
 {
@@ -16,13 +16,12 @@ class RoleMiddleware
         }
 
         $user = Auth::user();
-        Log::info("User role: " . $user->role); // Log role pengguna
+        Log::info("User role: " . $user->role);
 
         if (!in_array($user->role, $roles)) {
-            Log::info("Unauthorized access attempt with role: " . $user->role); // Log akses yang ditolak
+            Log::info("Unauthorized access attempt with role: " . $user->role);
             abort(403, 'Unauthorized access.');
         }
-
         return $next($request);
     }
 }

@@ -30,7 +30,6 @@
                         Silakan kelola data buku, anggota, dan laporan melalui menu di navigasi.
                     </p>
                 </div>
-
             </div>
         </div>
     </div>

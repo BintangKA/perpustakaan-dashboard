@@ -1,0 +1,4 @@
+role admin
+
+email: bintang@perpus.com
+password: 1234567890
