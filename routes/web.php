@@ -17,8 +17,6 @@ Route::get('/', [DashboardController::class, 'welcome']);
 Route::get('/dashboard', [DashboardController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
-    
-Route::get('/buku', [BookController::class, 'tampil'])->name('book.list');
 
 // Group route untuk user yang sudah login
 Route::middleware(['auth'])->group(function () {

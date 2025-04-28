@@ -167,7 +167,7 @@
                 <h1 class="mb-5 text-3xl font-bold text-blue-900 font-montserrat">Pengalaman Pengunjung Kami</h1>
                 <p class="text-gray-700 font-montserrat">Buku lengkap, suasana nyaman, dan pelayanan yang ramah —
                     jadikan kunjunganmu berkesan di perpustakaan kami!</p>
-                <a href="{{ url('/koleksi') }}">
+                <a href="{{ route('book.list') }}">
                     <button
                         class="px-6 py-2 mt-6 font-semibold text-blue-600 transition duration-300 border border-blue-600 rounded-lg hover:bg-blue-700 hover:text-white font-oswald">
                         Lihat Koleksi Buku
