@@ -156,8 +156,6 @@
             </div>
         </div>
     </div>
-
-
     {{-- Testimonial --}}
     <section class="py-16 bg-blue-50">
         <div class="flex flex-col items-start gap-10 px-5 mx-auto max-w-7xl md:flex-row md:items-center">
